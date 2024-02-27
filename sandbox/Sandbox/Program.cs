@@ -7,8 +7,6 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Hello Sandbox World!");
-
-        
         List<int> numbers = new List<int> { 1, 2, 3, 4, 5 };
         // Using Select to 'map' each number to its square
         var squaredNumbers = numbers.Select(x => x * x);
